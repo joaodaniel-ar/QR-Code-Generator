@@ -1,0 +1,154 @@
+/*#4649FF*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+  /*border: 1px solid red;*/
+}
+
+html,
+body {
+    height: 100vh;
+    background: rgb(215,12,5);
+    background: linear-gradient(90deg, rgba(215,12,5,1) 0%, rgba(239,28,0,1) 35%, rgba(255,57,0,1) 100%);
+    font-family: Roboto, Arial, sans-serif;
+    overflow:hidden;
+}
+
+/*#FFF470*/
+/*4649FF*/
+/*#3366E8*/
+.menu {
+	background: #ab010e;
+	padding: 20px 0;
+}
+
+.menu-container {
+    max-width: 100%;
+    position: relative;
+	margin: 0 auto;
+	align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container a {
+  padding-left: 30px;
+}
+
+.menu-container::after, .menu-container::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.menu-nav ul {
+    margin:0;
+}
+
+.menu-nav li {
+	display: inline-block;
+}
+
+.menu-nav a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
+}
+
+@media (max-width: 739px) {
+	.menu-nav {
+    float: none;
+    clear: both;
+	}
+}
+
+.table td, .table th {
+    border:none !important;
+}
+
+.small{
+    font-size: 100% !important;
+    font-weight: 400;
+}
+
+div .btn-btn {
+  display: block;
+  min-width: 120px;
+  border: none;
+  background: rgb(197, 210, 214, 0.3);
+  color: white;
+  border-radius: 25px;
+  margin: auto;
+  padding: 7px;
+  z-index: 1;
+}
+
+div .btn-btn:hover{
+    background: rgba(197, 210, 214, 0.64);
+}
+
+th {
+  text-align: center;
+}
+
+table.table {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px; 
+}
+
+.b-delete{
+  color: #ed1a00;
+  margin-left: 10px;
+}
+
+.b-delete:hover{
+  color: #a01300;
+}
+
+.b-update{
+  color: #004085 !important;
+  cursor: pointer
+}
+
+.b-update:hover{
+  color: #002752 !important;
+}
+
+
+/** {
+  border: 1px solid black;
+}*/
+
+
+/* squares */
+/*body {
+  overflow: hidden;
+}*/
+
+.squares li {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  animation: up 2s infinite alternate;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-800px) rotate(960deg);
+  }
+}

@@ -1,0 +1,77 @@
+#main-wrapper{
+    height: 58vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.page-inner{
+    height: 90vh;
+}
+
+.slimScrollDiv{
+    height: 90vh;
+    position: relative;
+}
+
+.sidebar-logo {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    max-width: 100%;
+    padding: 30px; 
+}
+
+.sidebar-logo img{
+    width: 100%;
+}
+
+.page-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-responsive, .table-responsive th{
+    text-align: center;
+}
+
+.navbar-nav.navbar-right{
+    padding-right: 5.5em;
+}
+
+.add-button{
+    border: none;
+    float: right;
+    background: none !important;
+}
+
+.user-update, .b-update, .b-delete{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.add-profile-image {
+    display: block;
+}
+
+.add-profile {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.add-profile img {
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#deleteModal .modal-dialog{
+    margin: 35vh auto !important;
+    padding: 0 5%;
+}
+
+.table.dash .hide-me{
+    display: none;
+}
